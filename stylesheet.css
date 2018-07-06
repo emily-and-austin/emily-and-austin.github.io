@@ -1,0 +1,52 @@
+body {
+    -webkit-transition: background 2s;
+    transition: background 2s;
+
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fff;
+    overflow-x: hidden;
+}
+
+.main-body{
+	text-align: center;
+}
+
+.text-scroll{
+    -webkit-transition: opacity 2s, background 2s;
+    transition: opacity 2s, background 2s;
+}
+
+.first-text-scroll{
+
+	background: #e1e1e1;
+	width: 50%;
+	padding-top: 20px;
+	margin: 20px auto;
+}
+
+.second-text-scroll{
+	opacity: 0;
+	width: 50%;
+	padding-top: 20px;
+	margin: 20px auto;
+}
+
+.third-text-scroll{
+	opacity: 0;
+	width: 50%;
+	padding-top: 20px;
+	margin: 20px auto;
+}
+
+.sketch{
+	width: 75%;
+}
+
+.final-photos {
+	width: 75%;
+	margin: 25px 0;
+}
+
+.purdue-sketch {
+	width: 100%;
+}
